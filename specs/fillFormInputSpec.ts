@@ -6,7 +6,7 @@ import { FillFormInputPage } from "../pages/fillFormInputPage";
 let globalActivities = new GlobalActivities();
 let formInput = new FillFormInputPage();
 
-describe('FillNameInput', function() {
+describe('Fill form inputs', function() {
   
   beforeAll( async() =>{
 		await globalActivities.getWebPage(info.url);
