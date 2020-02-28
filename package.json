@@ -1,0 +1,27 @@
+{
+  "name": "s4ntest",
+  "version": "1.0.0",
+  "description": "S4N Test",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run tsc",
+    "tsc": "tsc",
+    "test": "protractor JSFilesLocation/conf.js"
+  },
+  "author": "Sergio Ospina",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^12.11.7",
+    "jasmine": "^3.5.0",
+    "nvm": "0.0.4",
+    "protractor": "^5.4.2",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "typescript": "^3.6.4",
+    "webdriver": "^5.15.4",
+    "webdriver-manager": "^12.1.7"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.4.4"
+  }
+}
