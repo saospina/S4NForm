@@ -19,8 +19,7 @@ export class FillFormInputPage {
 
     public async enterDate(date: string){
         await this.calendarTextInput.sendKeys(date);
-        /* let regEx = /^\d{4}-\d{2}-\d{2}$/;
-        return date.match(regEx) != null; */
+
     };
 
     public async selectGender(){
